@@ -1,0 +1,495 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: clamp(12px, 1vw, 16px);
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .navwrap {
+  display: flex;
+  justify-content: center;
+  background: white;
+  position: fixed;
+  width: 100%;
+}
+main .navwrap .nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 2em;
+  align-items: center;
+}
+main .navwrap .nav .ul ul {
+  list-style: none;
+  display: flex;
+  font-size: 0.9em;
+  font-weight: 600;
+  gap: 1em;
+}
+main .navwrap .nav .ul ul li {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  opacity: 0.7;
+}
+main .navwrap .nav .ul ul li:hover {
+  cursor: pointer;
+}
+main .navwrap .nav .ul ul button {
+  padding: 1em 3em;
+  color: white;
+  background: #196BD4;
+  border-radius: 2em;
+  border: none;
+}
+main .navwrap .nav .ul ul button:hover {
+  cursor: pointer;
+}
+main .navwrap .nav .ul img {
+  display: none;
+}
+main .view1-back {
+  width: 100%;
+  background: linear-gradient(to left bottom, #F3FCFF, #D3FFF5);
+  display: flex;
+  justify-content: center;
+}
+main .view1-back .view1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10em 10vw;
+  gap: 5em;
+  max-width: 1920px;
+  align-items: center;
+}
+main .view1-back .view1 .top {
+  display: flex;
+  justify-content: center;
+}
+main .view1-back .view1 .top .text {
+  display: flex;
+  align-items: center;
+  padding: 0 3em;
+  flex-basis: 50%;
+}
+main .view1-back .view1 .top .text h1 {
+  font-size: 3.7em;
+  line-height: 1;
+}
+main .view1-back .view1 .top .img {
+  flex-basis: 50%;
+}
+main .view1-back .view1 .top .img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 25em;
+}
+main .view1-back .view1 .bottom {
+  display: flex;
+  padding: 0 0;
+  width: 100%;
+  justify-content: center;
+}
+main .view1-back .view1 .bottom p {
+  font-size: 2em;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.3;
+}
+main .view2 {
+  width: 100%;
+  display: flex;
+  max-width: 1920px;
+  padding: 5vh 10vw;
+  font-size: clamp(12px, 1vw, 16px);
+  justify-content: center;
+}
+main .view2 .container {
+  display: flex;
+  gap: 5em;
+}
+main .view2 .container .box {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  border-top: 4px solid #E8EAED;
+  padding: 1em 2em 0 0;
+  gap: 1em;
+}
+main .view2 .container .box h1 {
+  font-size: 2em;
+}
+main .view2 .container .box p {
+  font-size: 1.5em;
+  opacity: 0.6;
+}
+main .view2 .container .box .img {
+  width: 100%;
+}
+main .view2 .container .box .img img {
+  width: 100%;
+}
+main .view3wrap {
+  background: linear-gradient(to bottom, #196bd4 20%, transparent 60%), radial-gradient(ellipse at -50% -150%, transparent 80%, #196bd4 80%), linear-gradient(145deg, #196bd4 0, #1783e1 60%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+main .view3wrap .view3 {
+  width: 100%;
+  display: flex;
+  max-width: 1920px;
+  padding: 5vh 10vw;
+  font-size: clamp(12px, 1vw, 16px);
+  justify-content: center;
+}
+main .view3wrap .view3 .contain {
+  padding: 4em 2em;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  flex-direction: column;
+}
+main .view3wrap .view3 .contain .top {
+  padding-bottom: 10em;
+}
+main .view3wrap .view3 .contain .top h3 {
+  color: white;
+  font-size: 2em;
+  font-weight: 600;
+}
+main .view3wrap .view3 .contain .top h1 {
+  color: white;
+  font-size: 4em;
+}
+main .view3wrap .view3 .contain .bottom {
+  color: white;
+  display: flex;
+  gap: 5em;
+  justify-content: space-between;
+}
+main .view3wrap .view3 .contain .bottom .card {
+  padding: 1em 3em;
+  flex-basis: 50%;
+  border-radius: 1em;
+}
+main .view3wrap .view3 .contain .bottom .card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+main .view3wrap .view3 .contain .bottom .card img {
+  padding-bottom: 1em;
+}
+main .view3wrap .view3 .contain .bottom .card .arrow {
+  font-size: 1.8em;
+  font-weight: 600;
+  padding-bottom: 0.5em;
+}
+main .view3wrap .view3 .contain .bottom .card p {
+  font-size: 1.2em;
+  padding-bottom: 0.5em;
+}
+main .view4 {
+  width: 100%;
+  max-width: 1920px;
+  display: flex;
+  padding: 5vh 10vw;
+  font-size: clamp(12px, 1vw, 16px);
+  flex-direction: column;
+}
+main .view4 .one {
+  display: flex;
+  flex-direction: column;
+}
+main .view4 .one .top {
+  width: 100%;
+  padding-left: 5em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+main .view4 .one .top h3 {
+  opacity: 0.8;
+  font-size: 2em;
+  padding-right: 5em;
+}
+main .view4 .one .top h1 {
+  font-size: 4em;
+  padding-right: 5em;
+  line-height: 1;
+}
+main .view4 .one .bottom {
+  display: flex;
+  width: 100%;
+  padding: 3em 0;
+}
+main .view4 .one .bottom .left {
+  flex-basis: 30%;
+  display: flex;
+  align-items: center;
+}
+main .view4 .one .bottom .left img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .view4 .one .bottom .right {
+  flex-basis: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  padding: 0 10em 0 10em;
+}
+main .view4 .one .bottom .right .boxx {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  padding-bottom: 5em;
+}
+main .view4 .one .bottom .right .boxx:not(:last-child) {
+  border-bottom: 1px #E8EAED solid;
+}
+main .view4 .one .bottom .right .boxx h1 {
+  font-size: 2em;
+  font-family: 400;
+}
+main .view4 .one .bottom .right .boxx p {
+  font-size: 1.3em;
+  opacity: 0.6;
+}
+main .view4 .one .bottom .right .boxx .boton {
+  display: flex;
+  gap: 1em;
+}
+main .view4 .one .bottom .right .boxx .boton p {
+  font-size: 1.3em;
+  opacity: 1;
+  font-weight: 700;
+}
+main .view4 .one .bottom .right .boxx .boton p:hover {
+  cursor: pointer;
+}
+main .view4 .two {
+  display: flex;
+  width: 100%;
+}
+main .view4 .two .contain {
+  padding: 5em 0;
+  display: flex;
+  justify-content: center;
+}
+main .view4 .two .contain .l {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15em 0 5em;
+  justify-content: center;
+  gap: 2em;
+}
+main .view4 .two .contain .l span {
+  font-size: 1.5em;
+  opacity: 0.8;
+  font-weight: 700;
+}
+main .view4 .two .contain .l h1 {
+  font-size: 4em;
+}
+main .view4 .two .contain .l p {
+  font-size: 1.3em;
+}
+main .view4 .two .contain .l .ali {
+  display: flex;
+  justify-content: flex-start;
+}
+main .view4 .two .contain .l .ali button {
+  padding: 1em 2em;
+  border-radius: 3em;
+  background: 0;
+  border: #196BD4 1px solid;
+  color: #196BD4;
+  font-size: 1em;
+  font-weight: 700;
+}
+main .view4 .two .contain .l .ali button:hover {
+  background: #196BD4;
+  cursor: pointer;
+  color: white;
+}
+main .view4 .two .contain .r img {
+  width: 40em;
+}
+main .view4 .three {
+  display: flex;
+  width: 100%;
+}
+main .view4 .three .contain {
+  padding: 5em 0;
+  display: flex;
+  justify-content: space-between;
+}
+main .view4 .three .contain .l img {
+  width: 30em;
+}
+main .view4 .three .contain .r {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20em 0 5em;
+  justify-content: center;
+  gap: 1.5em;
+}
+main .view4 .three .contain .r span {
+  font-size: 1.5em;
+  opacity: 0.8;
+  font-weight: 700;
+}
+main .view4 .three .contain .r h1 {
+  font-size: 4em;
+}
+main .view4 .three .contain .r p {
+  font-size: 1.3em;
+}
+main .view4 .three .contain .r .ali {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2em;
+}
+main .view4 .three .contain .r .ali button {
+  padding: 0.5em 1em;
+  border-radius: 3em;
+  background: 0;
+  border: #196BD4 1px solid;
+  color: #196BD4;
+  font-size: 1em;
+  font-weight: 700;
+}
+main .view4 .three .contain .r .ali button:hover {
+  background: #196BD4;
+  cursor: pointer;
+  color: white;
+}
+main .view4 .three .contain .r .ali p {
+  font-size: 1em;
+  font-weight: 700;
+  opacity: 1;
+}
+main .view4 .four {
+  display: flex;
+  width: 100%;
+}
+main .view4 .four .contain {
+  padding: 5em 0;
+  display: flex;
+  justify-content: center;
+}
+main .view4 .four .contain .l {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15em 0 5em;
+  justify-content: center;
+  gap: 2em;
+}
+main .view4 .four .contain .l span {
+  font-size: 1.5em;
+  opacity: 0.8;
+  font-weight: 700;
+}
+main .view4 .four .contain .l h1 {
+  font-size: 4em;
+}
+main .view4 .four .contain .l p {
+  font-size: 1.3em;
+}
+main .view4 .four .contain .l .ali {
+  display: flex;
+  justify-content: flex-start;
+}
+main .view4 .four .contain .l .ali button {
+  padding: 1em 2em;
+  border-radius: 3em;
+  background: 0;
+  border: #196BD4 1px solid;
+  color: #196BD4;
+  font-size: 1em;
+  font-weight: 700;
+}
+main .view4 .four .contain .l .ali button:hover {
+  background: #196BD4;
+  cursor: pointer;
+  color: white;
+}
+main .view4 .four .contain .r img {
+  width: 40em;
+}
+
+@media (max-width: 600px) {
+  main .navwrap .nav .logo img {
+    width: 10em;
+  }
+  main .navwrap .nav .ul ul {
+    display: none;
+  }
+  main .navwrap .nav .ul img {
+    display: inline;
+    width: 3em;
+  }
+  main .navwrap .nav .ul img:hover {
+    cursor: pointer;
+  }
+  main .view1-back {
+    background: linear-gradient(to bottom, #F3FCFF, #D3FFF5);
+  }
+  main .view1-back .view1 {
+    align-items: center;
+    padding: 10em 3em;
+    gap: 10em;
+  }
+  main .view1-back .view1 .top {
+    flex-direction: column-reverse;
+    gap: 5em;
+    align-items: center;
+  }
+  main .view1-back .view1 .top .text {
+    padding: 0;
+    text-align: center;
+  }
+  main .view1-back .view1 .top .text h1 {
+    font-size: 3.8em;
+    font-weight: 700;
+  }
+  main .view1-back .view1 .bottom {
+    padding: 0;
+  }
+  main .view1-back .view1 .bottom p {
+    font-size: 2.8em;
+  }
+  main .view2 {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  main .view2 .container {
+    display: flex;
+    flex-direction: column;
+    padding: 5em 3em;
+  }
+  main .view3wrap .view3 {
+    padding: 10em 0;
+  }
+  main .view3wrap .view3 .contain .bottom {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */
