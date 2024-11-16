@@ -292,7 +292,6 @@ main {
         .two{
             display: flex;
             width: 100%;
-            max-width: 1920px;
             .contain{
                     padding: 5em 0;
                     display: flex;
@@ -300,7 +299,7 @@ main {
                     .l{
                         display: flex;
                         flex-direction: column;
-                        padding: 0 15em 0 5em;
+                        padding: 0 10em 0 5em;
                         justify-content: center;
                         gap:2em;
                         span{
@@ -335,7 +334,7 @@ main {
                     }
                     .r{
                         img{
-                         width: 40em;
+                         width: 30em;
                         }
 
                     }
@@ -408,7 +407,7 @@ main {
                     .l{
                         display: flex;
                         flex-direction: column;
-                        padding: 0 15em 0 5em;
+                        padding: 0 10em 0 5em;
                         justify-content: center;
                         gap:2em;
                         span{
@@ -443,7 +442,7 @@ main {
                     }
                     .r{
                         img{
-                         width: 40em;
+                         width: 30em;
                         }
 
                     }
@@ -535,13 +534,6 @@ main {
                 }
             }
         }
-        .view4{
-            padding: 5em 0;
-            .one{
-                .bottom{
-                    flex-direction: column;
-                }
-            }
-        }
+        
     }
 }

@@ -286,7 +286,6 @@ main .view4 .one .bottom .right .boxx .boton p:hover {
 main .view4 .two {
   display: flex;
   width: 100%;
-  max-width: 1920px;
 }
 main .view4 .two .contain {
   padding: 5em 0;
@@ -296,7 +295,7 @@ main .view4 .two .contain {
 main .view4 .two .contain .l {
   display: flex;
   flex-direction: column;
-  padding: 0 15em 0 5em;
+  padding: 0 10em 0 5em;
   justify-content: center;
   gap: 2em;
 }
@@ -330,7 +329,7 @@ main .view4 .two .contain .l .ali button:hover {
   color: white;
 }
 main .view4 .two .contain .r img {
-  width: 40em;
+  width: 30em;
 }
 main .view4 .three {
   display: flex;
@@ -399,7 +398,7 @@ main .view4 .four .contain {
 main .view4 .four .contain .l {
   display: flex;
   flex-direction: column;
-  padding: 0 15em 0 5em;
+  padding: 0 10em 0 5em;
   justify-content: center;
   gap: 2em;
 }
@@ -433,7 +432,7 @@ main .view4 .four .contain .l .ali button:hover {
   color: white;
 }
 main .view4 .four .contain .r img {
-  width: 40em;
+  width: 30em;
 }
 
 @media (max-width: 600px) {
@@ -491,12 +490,6 @@ main .view4 .four .contain .r img {
     padding: 10em 0;
   }
   main .view3wrap .view3 .contain .bottom {
-    flex-direction: column;
-  }
-  main .view4 {
-    padding: 5em 0;
-  }
-  main .view4 .one .bottom {
     flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */
