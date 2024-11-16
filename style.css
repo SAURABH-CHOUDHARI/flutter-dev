@@ -286,6 +286,7 @@ main .view4 .one .bottom .right .boxx .boton p:hover {
 main .view4 .two {
   display: flex;
   width: 100%;
+  max-width: 1920px;
 }
 main .view4 .two .contain {
   padding: 5em 0;
@@ -490,6 +491,12 @@ main .view4 .four .contain .r img {
     padding: 10em 0;
   }
   main .view3wrap .view3 .contain .bottom {
+    flex-direction: column;
+  }
+  main .view4 {
+    padding: 5em 0;
+  }
+  main .view4 .one .bottom {
     flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */

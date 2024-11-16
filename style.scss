@@ -292,6 +292,7 @@ main {
         .two{
             display: flex;
             width: 100%;
+            max-width: 1920px;
             .contain{
                     padding: 5em 0;
                     display: flex;
@@ -531,6 +532,14 @@ main {
                             }
                         }
                     }
+                }
+            }
+        }
+        .view4{
+            padding: 5em 0;
+            .one{
+                .bottom{
+                    flex-direction: column;
                 }
             }
         }
