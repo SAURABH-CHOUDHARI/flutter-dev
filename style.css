@@ -238,17 +238,15 @@ main .view4 .one .bottom {
   padding: 3em 0;
 }
 main .view4 .one .bottom .left {
-  flex-basis: 30%;
   display: flex;
   align-items: center;
 }
 main .view4 .one .bottom .left img {
-  width: 100%;
+  width: 30em;
   -o-object-fit: cover;
      object-fit: cover;
 }
 main .view4 .one .bottom .right {
-  flex-basis: 70%;
   display: flex;
   flex-direction: column;
   gap: 3em;
@@ -491,5 +489,59 @@ main .view4 .four .contain .r img {
   }
   main .view3wrap .view3 .contain .bottom {
     flex-direction: column;
+  }
+  main .view4 {
+    flex-direction: column;
+    padding: 10em 0;
+  }
+  main .view4 .one .top {
+    padding: 0;
+  }
+  main .view4 .one .top h3 {
+    padding: 0;
+    text-align: center;
+  }
+  main .view4 .one .top h1 {
+    padding: 1em 0;
+    text-align: center;
+  }
+  main .view4 .one .bottom {
+    flex-direction: column;
+  }
+  main .view4 .one .bottom .left {
+    flex-direction: column;
+  }
+  main .view4 .one .bottom .left img {
+    width: 30em;
+  }
+  main .view4 .one .bottom .right {
+    padding: 0.5em 5em;
+  }
+  main .view4 .two .contain {
+    flex-direction: column-reverse;
+  }
+  main .view4 .two .contain .l {
+    padding: 3em 3em;
+  }
+  main .view4 .two .contain .r {
+    padding: 3em 3em;
+  }
+  main .view4 .three .contain {
+    flex-direction: column;
+  }
+  main .view4 .three .contain .l {
+    padding: 3em 3em;
+  }
+  main .view4 .three .contain .r {
+    padding: 3em 3em;
+  }
+  main .view4 .four .contain {
+    flex-direction: column-reverse;
+  }
+  main .view4 .four .contain .l {
+    padding: 3em 3em;
+  }
+  main .view4 .four .contain .r {
+    padding: 3em 3em;
   }
 }/*# sourceMappingURL=style.css.map */
